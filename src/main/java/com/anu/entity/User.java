@@ -1,10 +1,7 @@
 package com.anu.entity;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
+import jakarta.validation.constraints.Email;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -17,6 +14,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
+@Table(name = "User Details")
 public class User {
 
   @Id
@@ -28,4 +26,8 @@ public class User {
 
   @Column(name="password", nullable=false)
   private String password;
+
+  @Email
+  @Column(name = "email", nullable = false)
+  private String email;
 }
