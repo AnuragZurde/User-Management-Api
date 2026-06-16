@@ -16,19 +16,16 @@ A Production-ready Backend Service Built With Spring Boot to handle robust User 
 * **Credential Isolation:** Keeps local database connection strings completely safe from version control tracking by utilizing IDE environment variable injections.
 * **Interactive Testing Dashboard:** Features a live API explorer via integrated Swagger interface wrappers built for the Spring Boot 4 ecosystem.
 
-* # REST API Specifications
-* # User Endpoints
-* | HTTP Method | Endpoint Path | Context Description |
-| :--- | :--- | :--- |
-| `GET` | `/user/all` | Retrieve all registered records |
-| `GET` | `/user/id/{id}` | Lookup a user profile by primary key |
-| `GET` | `/user/username/{username}` | Lookup a user profile by unique username |
-| `POST` | `/user` | Register a new user |
-| `PUT` | `/user/{username}` | Rewrite of an existing user profile record |
-| `PATCH` | `/user/{username}` | Partial dynamic update of target user fields |
-| `DELETE` | `/user/id/{id}` | Delete user profile record using primary key |
-| `DELETE` | `/user/username/{username}` | Delete user profile record using username |
----
+# REST API Specifications
+## User Endpoints
+* **GET** ` /user/all` — Retrieve all registered records
+* **GET** ` /user/id/{id}` — Lookup a user profile by primary key
+* **GET** ` /user/username/{username}` — Lookup a user profile by unique username
+* **POST** ` /user` — Register a new user
+* **PUT** ` /user/{username}` — Rewrite of an existing user profile record
+* **PATCH** ` /user/{username}` — Partial dynamic update of target user fields
+* **DELETE** ` /user/id/{id}` — Delete user profile record using primary key
+* **DELETE** ` /user/username/{username}` — Delete user profile record using username
 
 ## Interactive Swagger API Documentation
 ## Swagger UI Dashboard (Visual Interface)
