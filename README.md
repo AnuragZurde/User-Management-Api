@@ -30,7 +30,7 @@ A Production-ready Backend Service Built With Spring Boot to handle robust User 
 ## Interactive Swagger API Documentation
 ## Swagger UI Dashboard (Visual Interface)
 
-* # To explore and test the endpoints live from your web browser, **ensure the Spring Boot application is running locally**, then visit.
+* To explore and test the endpoints live from your web browser, **ensure the Spring Boot application is running locally**, then visit.
 
 Use this web page to view all endpoints in a clean UI, look at response models, and execute live API requests:
 **[http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)**
